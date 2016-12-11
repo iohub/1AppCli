@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ZHotKit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="err_io_file_encode">加载Json文件错误!</string>
+    <string name="err_io_open_file">打开文件错误！</string>
+    <string name="action_settings">Settings</string>
+    <string name="err_link_network">网络连接错误！</string>
+    <string name="err_request_json">Json数据请求错误！</string>
+    <string name="finish_request_json">Json数据加载完毕！</string>
+    <string name="err_intent">intent数据格式错误！</string>
+</resources>

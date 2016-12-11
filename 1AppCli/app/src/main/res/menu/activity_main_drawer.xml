@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_zhihu" android:icon="@drawable/ic_zhihu"
+            android:title="知乎日报" />
+        <item android:id="@+id/nav_guokr" android:icon="@drawable/ic_guokr"
+            android:title="果壳热文" />
+        <item android:id="@+id/nav_slideshow" android:icon="@drawable/ic_douban"
+            android:title="豆瓣电影" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="分享" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="关于" />
+        </menu>
+    </item>
+
+</menu>

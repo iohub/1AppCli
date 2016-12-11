@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_margin="3.0dip"
+        android:background="@drawable/list_row_selector">
+
+        <!-- Thumbnail Image -->
+        <ImageView
+            android:id="@+id/thumbnail_daily"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="8dp"/>
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_daily"
+            android:layout_alignTop="@+id/thumbnail_daily"
+            android:layout_toRightOf="@+id/thumbnail_daily"
+            android:textSize="17dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+</FrameLayout>
